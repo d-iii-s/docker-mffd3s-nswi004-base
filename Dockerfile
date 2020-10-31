@@ -1,7 +1,7 @@
 FROM fedora:33
 
 # Install development tools
-RUN dnf install -y git gcc binutils make clang
+RUN dnf install -y git gcc binutils make clang diffutils
 
 # Install common utilities
 RUN dnf install -y mc vim findutils
